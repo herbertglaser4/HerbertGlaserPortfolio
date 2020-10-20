@@ -1,0 +1,88 @@
+body {
+  background-color: white;
+}
+
+.sidenav {
+  height: 100%;
+  width: 160px;
+  position: fixed;
+  z-index: 1;
+  top: 0;
+  left: 0;
+  background-color: #111;
+  overflow-x: hidden;
+  padding-top: 20px;
+}
+
+.sidenav a {
+  padding: 6px 8px 6px 16px;
+  text-decoration: none;
+  font-size: 25px;
+  color: #818181;
+  display: block;
+}
+
+.sidenav a:hover {
+  color: #f1f1f1;
+}
+
+.main {
+    margin-left: 160px; /* Same as the width of the sidenav */
+    font-size: 28px; /* Increased text to enable scrolling */
+    padding: 0px 10px;
+    display: flex;
+}
+.title{
+    font-size: 22px;
+    font-family: Calibri, Charcoal, sans-serif;
+    margin-left: 160px; /* Same as the width of the sidenav */
+    font-size: 28px; /* Increased text to enable scrolling */
+    padding: 0px 10px;
+    display: flex;
+}
+.circle {
+    width: 75px;
+    height: 75px;
+    line-height: 75px;
+    border-radius: 50%;
+    font-size: 35px;
+    color: #000;
+    text-align: center;
+    background: #00FFFF;
+    font-family: Brush Script MT, Brush Script Std, cursive;
+}
+.circlebox {
+     padding-top: 4px;
+     padding-bottom: 10px;
+     padding-left: 40px;
+}
+.profilepic {
+    width:300px;
+    height:400px;
+    display: block;
+    float: left;
+}
+.skillpic {
+    width:250px;
+    height:250px;
+    display: block;
+    float: center;
+}
+
+.writing {
+    float: left;
+}
+
+.column {
+  float: left;
+  width: 33.33%;
+  padding: 10px;
+
+}
+
+/* Clear floats after the columns */
+.row:after {
+  content: "";
+  display: table;
+  clear: both;
+}
